@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogicFuture - Yoga Studio Management Platform</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <div class="container mx-auto px-4 py-10 max-w-5xl">
+        <!-- Header -->
+        <div class="flex justify-center items-center mb-8">
+            <div class="w-10 h-10 rounded-full bg-orange-400 mr-3"></div>
+            <h1 class="text-3xl font-bold">Yogicfuture</h1>
+        </div>
+
+        <!-- Main Description -->
+        <div class="bg-blue-200 rounded-lg p-6 mb-10 text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-2">A powerful, easy-to-use business platform</h2>
+            <p class="text-xl sm:text-2xl font-semibold">designed specifically for yoga studios and schools</p>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- 1. Class & Session Management -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="class.png" alt="Class icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Class & Session Management</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Manage multiple classes from one place</li>
+                        <li>Admin can manage their free time and schedule one-to-one (private) sessions</li>
+                        <li>Admin can manage their practice session</li>
+                        <li>Admin can manage their program</li>
+                        <li>Admin can manage their workshop</li>
+                        <li>Admin can manage the number of clients who can subscribe to programs, workshops, and practice sessions</li>
+                        <li>Admin can add membership class from Monday to Sunday</li>
+                        <li>Admin can change class-related settings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2. Membership & Tier Management -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="member.png" alt="Membership icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Membership & Tier Management</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin can manage membership tier</li>
+                        <li>Admin can add a member to the membership tier</li>
+                        <li>Admin can grant attendance for membership classes to the member</li>
+                        <li>Admin can pause and resume the membership</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3. Payment & Finance -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="card.png" alt="Payment icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Payment & Finance</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>RazorPay and Stripe both payment supported</li>
+                        <li>Admin can create a discount coupon with a minimum order value and a maximum discount value (either flat or percentage)</li>
+                        <li>Admin can give the early bird discount</li>
+                        <li>Admin can also use dynamic pricing feature</li>
+                        <li>Client can show their previous transactions</li>
+                        <li>Admin can add balance to the client wallet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 4. Subscription & Booking -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="subsc.png" alt="Subscription icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Subscription & Booking</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Client can subscribe to private sessions, programs, workshops, and practice sessions</li>
+                        <li>Client can subscribe to programs</li>
+                        <li>Admin can subscribe to programs, workshops, practice sessions, and membership tiers on behalf of the client</li>
+                        <li>Admin can add the client</li>
+                        <li>Admin can add client to the waitlist</li>
+                        <li>When a class is booked, both the client and admin receive an email notification</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 5. User Access & Role Management -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="user role.png" alt="User Access icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">User Access & Role Management</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin can manage their team with role-based access</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 6. Reports & Analytics -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="data.png" alt="Reports icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Reports & Analytics</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin can generate various types of dynamic report</li>
+                        <li>Admin can give scores and attendance to the client</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 7. Notifications & Communication -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="notify.png" alt="Notifications icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Notifications & Communication</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin can change the default email template</li>
+                        <li>Admin can send push notifications to the client</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 8. Onboarding & Personalization -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="personalise.png" alt="Onboarding icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Onboarding & Personalization</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin and client have a smooth onboarding experience</li>
+                        <li>Client can update their personal information</li>
+                        <li>Admin can change class-related settings and personal information</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 9. Space & Availability -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="space.png" alt="Space icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Space & Availability</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Admin can share their available space with others</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 10. Data Privacy & Compliance -->
+            <div class="feature-box bg-orange-100 rounded-lg overflow-hidden">
+                <div class="feature-header p-4 flex items-center justify-between cursor-pointer">
+                    <div class="flex items-center">
+                        <img src="security.png" alt="Privacy icon" class="w-8 h-8 rounded mr-4 flex items-center justify-center">
+                        <h3 class="text-lg font-semibold">Data Privacy & Compliance</h3>
+                    </div>
+                    <svg class="arrow w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Client data will not be used externally and will be deleted if the admin leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
