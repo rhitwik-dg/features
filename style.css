@@ -6,6 +6,13 @@
     padding-bottom: 0;
 }
 
+.arrow {
+    transition: transform 0.3s ease;
+}
+.arrow.active {
+    transform: rotate(180deg);
+}
+
 .feature-content.active {
     max-height: 1000px;
     padding-bottom: 1rem;
